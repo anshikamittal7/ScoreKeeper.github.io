@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.cover {
+  box-shadow: 0px 0px 10px 0px;
+  width: 500px;
+}
+div img {
+  width: 100%;
+  aspect-ratio: 2;
+  border: 0.1px solid white;
+}
+#bottom {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#score {
+  border-radius: 15px;
+}
+div button {
+  border-radius: 5px;
+  margin: 1px;
+  font-size: 1.3em;
+  height: 2.5em;
+}
+button:nth-of-type(1) {
+  background-color: #00d1b2;
+  border-color: transparent;
+  color: #fff;
+}
+button:nth-of-type(2) {
+  background-color: #3298dc;
+  border-color: transparent;
+  color: #fff;
+}
+button:nth-of-type(3) {
+  background-color: #f14668;
+  border-color: transparent;
+  color: #fff;
+}
+#ping {
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 700;
+}
+#h1 {
+  font-size: 2.5em;
+}
+#use {
+  font-size: larger;
+  font-weight: 300;
+}
+#playing {
+  font-size: x-large;
+  font-weight: bolder;
+}
+@media (max-width: 415px) {
+  .cover {
+    align-self: start;
+  }
+  div button {
+    font-size: medium;
+    height: 4em;
+  }
+}
